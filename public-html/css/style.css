@@ -1,0 +1,187 @@
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('../fonts/Poppins-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: 'Poppins-Black';
+}
+a,input,textarea{
+    font-family: 'Poppins-Medium';
+    font-size: 13px;
+}
+p,span,.btn{
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+}
+.navbar-brand img{
+  width: 200px;
+  height: 80px;
+}
+.nav-link,.add-btn,.modal-title{
+  color:#37a000;
+    transition: 0.4s;  
+}
+.nav-link:focus{
+    border-bottom:1px solid #37a000; 
+}
+.nav-link:hover{
+  /* border-bottom:1px solid #37a000; */
+  color: chartreuse; 
+}
+.add-btn:hover{
+  background-color: #37a000;
+  color: white;
+  
+}
+.sign-in{
+    color:#37a000;
+}
+.Sign-in:hover{
+    color: #37a000;
+    background-color: white;
+    border: 1px solid #37a000;
+}
+.Sign-out{
+    background-color: #37a000;
+    color: white;
+}
+.Sign-out:hover{
+    color: #37a000;
+    background-color: white;
+    border: 1px solid #37a000;
+}
+
+#basic-addon2{background-color: #37a000;color: white}
+
+#basic-addon2:hover{
+    color: #37a000;
+    background-color: white;
+    border: 1px solid #37a000;
+    cursor: pointer;
+}
+.tab-pane i{
+  padding: 30px;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  margin-right: 20px;
+  transition: 0.4s;
+  margin-bottom: 10px;
+}
+.tab-pane i:hover{
+  color: #37a000;
+  border-bottom: 1px solid #37a000;
+  background-color: white;
+}
+
+#jobs{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  transition: 0.4s;
+}
+#jobs-row:hover{
+   color: #37a000;
+    background-color: #f0f0f0;
+    border-top: 1px solid #37a000;
+    border-bottom: 1px solid #37a000;
+}
+
+#jobs-row{
+  margin-top:10px;
+   transition: 1s;
+}
+.apply{
+    color:#37a000;
+    margin-top: -10px;
+    transition: 0.3s;
+}
+.apply:hover{
+    color: #37a000;
+    background-color: white;
+    border-left: 1px solid #37a000;
+    border-right: 1px solid #37a000;
+}
+.remove{
+    color:#37a000;
+    margin-top: -10px;
+    transition: 0.3s;
+}
+.remove:hover{
+    color: red;
+    background-color: white;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+footer{
+  background-color:#ebebeb;
+}
+
+.input-group{background-color:#ebebeb;}
+
+#job-search:hover{
+  box-shadow: inset 1px 1px 2px 2px #eee;
+}
+.form-control:hover{
+  box-shadow: inset 1px 1px 2px 2px #eee;
+}
+
+#about h4,#about h6,#wrapper h4,#contact-page h6,#work-page h4{
+  color:#37a000;
+  font-size: 15px;
+}
+
+#status:hover{
+  background-color: #37a000;
+  color: white;
+}
+
+.image-btn{
+  background-color: #37a000;
+  height: px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.image-btn:hover{
+  background-color:#f0f0f0;
+  color:#37a000;
+  cursor: pointer;
+}
+.image-btn1{
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+    
+    .tab-pane i{  margin-right: 1px;}
+  
+}
