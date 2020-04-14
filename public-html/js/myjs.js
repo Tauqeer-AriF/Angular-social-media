@@ -1,4 +1,13 @@
-$(".custom-file-input").on("change", function() {
-  var fileName = $(this).val().split("\\").pop();
-  $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+$(document).ready(function(){
+  $("#like").click(function(){
+      $("#like").toggleClass("like")
+    $("#dislike").toggle(1000);
+  });
+});
+
+
+$(document).ready(function(){
+  $("#dislike").click(function(){
+      $("#dislike").toggleClass("dislike")
+  });
 });
